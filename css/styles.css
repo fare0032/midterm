@@ -53,11 +53,137 @@ MY STYLES
 body {
     background-color:#aad4cf; 
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
-.container {
-    width: 1025px;
-    background-color: #d4e9e7;
+.container{
+    width: 1024px;
+	background-color: #d4e9e7;
     margin: 0 auto;
+	padding-bottom: 405px;
 }
+
+/*move h1 position*/
+h1 {
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	top: 210px;
+	left: 370px;
+  }
+
+  h2 {
+	padding: 50px;
+	text-align: left;
+	color:black;
+	font-size: 30px;
+	position: absolute;
+	left: 900px;
+	top: 365px;
+  }
+
+  h3 {
+	padding: 60px;
+	text-align: left;
+	color:black;
+	font-size: 25px;
+	position: absolute;
+	left: 885px;
+	top: 695px;
+  }
+
+  h4 {
+	padding: 60px;
+	text-align: left;
+	color: black;
+	font-size: 25px;
+	position: absolute;
+	left: 885px;
+	top: 810px;
+  }
+
+header {
+	position: relative;
+	float: left;
+  }
+
+  a {
+	display: inline-block;
+	width: 296px;
+	height: 30px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 25px;
+  }
+  
+  .small {
+	width: 230px;
+	float: left;
+	position: relative;
+	left: 20px;
+	top: 50px;
+  }
+
+  p {
+	font-size:14px;
+	font-weight: bold;
+	line-height: 150%;
+	position: relative;
+	top: 45px;
+	left: 35px;
+	padding-right: 40px;
+  }
+  
+  nav ul {
+	list-style: none;
+	margin: 0; padding: 0;
+	color: black;
+  }
+  
+  nav li {
+	display: inline;
+  }
+  
+  nav a {
+	display: inline-block;
+	border-right: 1px solid black;
+	padding: 10px 20px;
+  }
+
+ .points {
+	list-style-type: disc;
+	color: black;
+	font-size: 15px;
+	text-align: left;
+	font-weight: bold;
+	position: relative;
+	left: 35px;
+	top: 110px;
+  }
+
+ input[type=text], select, textarea {
+	width: 95%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	resize: vertical;
+	position: relative;
+	top: 200px;
+	left: 15px;
+  }
+
+  label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+	position: relative;
+	top: 200px;
+	left: 15px;
+  }
+
+  footer {
+	text-align: right;
+	position: relative;
+	padding-right: 200px;
+	top: 370px;
+	left: 170px;
+  }
