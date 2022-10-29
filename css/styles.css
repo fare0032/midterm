@@ -59,7 +59,7 @@ body {
     width: 1024px;
 	background-color: #d4e9e7;
     margin: 0 auto;
-	padding-bottom: 400px;
+	padding-bottom: 60px;
 }
 
 /*move h1 position*/
@@ -72,33 +72,31 @@ h1 {
   }
 
   h2 {
-	padding: 50px;
+	padding-top: 35%;
+	padding-left: 20px;
 	text-align: left;
 	color:black;
 	font-size: 30px;
-	position: absolute;
-	left: 900px;
-	top: 365px;
+	position: relative;
+	
   }
 
   h3 {
-	padding: 60px;
+	padding-top: 30px;
+	padding-left: 20px;
 	text-align: left;
 	color:black;
 	font-size: 25px;
 	position: absolute;
-	left: 885px;
-	top: 695px;
   }
 
   h4 {
-	padding: 60px;
+	padding-top: 80px;
+	padding-left: 20px;
 	text-align: left;
 	color: black;
 	font-size: 25px;
 	position: absolute;
-	left: 885px;
-	top: 810px;
   }
 
 header {
@@ -108,7 +106,7 @@ header {
 
   a {
 	display: inline-block;
-	width: 296px;
+	width: 337px;
 	height: 30px;
 	text-decoration: none;
 	text-align: center;
@@ -121,7 +119,7 @@ header {
 	float: left;
 	position: relative;
 	left: 20px;
-	top: 50px;
+	top: 5px;
   }
 
   p {
@@ -129,7 +127,7 @@ header {
 	font-weight: bold;
 	line-height: 150%;
 	position: relative;
-	top: 45px;
+	top: 5px;
 	left: 35px;
 	padding-right: 40px;
   }
@@ -157,33 +155,67 @@ header {
 	text-align: left;
 	font-weight: bold;
 	position: relative;
-	left: 35px;
-	top: 110px;
+	left: 42px;
+	top: 60px;
   }
 
- input[type=text], select, textarea {
+  * {
+	box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
 	width: 95%;
 	padding: 10px;
 	border: 1px solid #ccc;
-	border-radius: 2px;
+	border-radius: 4px;
 	resize: vertical;
 	position: relative;
-	top: 200px;
-	left: 15px;
+	top: 100px;
+	left: 30px;
+  }
+
+  .col-85 {
+	float: left;
+	width: 100%;
+	position: relative;
+	top: 3px;
+  }
+
+ .button {
+	width: 7%;
+	border: 2px groove;
+	border-color: black;
+	background-color: #d4e9e7;
+	color: black;
+	float: left;
+	font-size: 15px;
+	text-align: center;
+	position: relative;
+	top: 240px;
+	left: 30px;
   }
 
   label {
 	padding: 12px 12px 12px 0;
 	display: inline-block;
 	position: relative;
-	top: 200px;
-	left: 15px;
+	top: 110px;
+	left: 30px;
+  }
+
+  h5 {
+	padding-top: 120px;
+	padding-left: 25px;
+	text-align: left;
+	color: black;
+	font-size: 22px;
+	position: relative;
   }
 
   footer {
 	text-align: right;
 	position: relative;
 	padding-right: 200px;
-	top: 370px;
+	top: 100px;
 	left: 170px;
   }
