@@ -192,7 +192,7 @@ header {
 	font-size: 10px;
 	text-align: center;
 	position: relative;
-	margin-top: 15px;
+	margin-top: 10px;
 	padding-top: 12px;
 	left: 10px;
   }
@@ -219,6 +219,6 @@ header {
 	text-align: right;
 	position: relative;
 	padding-right: 200px;
-	top: 85px;
+	top: 30px;
 	left: 170px;
   }
