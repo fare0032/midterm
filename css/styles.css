@@ -59,7 +59,7 @@ body {
     width: 1024px;
 	background-color: #d4e9e7;
     margin: 0 auto;
-	padding-bottom: 60px;
+	padding-bottom: 50px;
 }
 
 /*move h1 position*/
@@ -91,12 +91,13 @@ h1 {
   }
 
   h4 {
-	padding-top: 80px;
 	padding-left: 20px;
 	text-align: left;
 	color: black;
 	font-size: 25px;
-	position: absolute;
+	position: relative;
+	padding-top: 75px;
+	padding-bottom: 15px;
   }
 
 header {
@@ -170,45 +171,47 @@ header {
 	border-radius: 4px;
 	resize: vertical;
 	position: relative;
-	top: 100px;
-	left: 30px;
+	left: 10px;
   }
 
   .col-85 {
 	float: left;
-	width: 100%;
+	width: 95%;
 	position: relative;
 	top: 3px;
   }
 
  .button {
-	width: 7%;
+	width: 6%;
+	height: 35px;
 	border: 2px groove;
 	border-color: black;
 	background-color: #d4e9e7;
 	color: black;
 	float: left;
-	font-size: 15px;
+	font-size: 10px;
 	text-align: center;
 	position: relative;
-	top: 240px;
-	left: 30px;
+	margin-top: 15px;
+	padding-top: 12px;
+	left: 10px;
   }
+  
 
   label {
 	padding: 12px 12px 12px 0;
 	display: inline-block;
 	position: relative;
-	top: 110px;
-	left: 30px;
+	left: 10px;
+	padding-top: 10px;
   }
 
   h5 {
-	padding-top: 120px;
-	padding-left: 25px;
+	padding-top: 15px;
+	padding-left: 10px;
 	text-align: left;
 	color: black;
-	font-size: 22px;
+	font-size: 20px;
 	position: relative;
   }
 
@@ -216,6 +219,6 @@ header {
 	text-align: right;
 	position: relative;
 	padding-right: 200px;
-	top: 100px;
+	top: 85px;
 	left: 170px;
   }
